@@ -1,11 +1,23 @@
 # EasyTicket Reservation
 
-Simple Standalone Java application which facilitates booking based on Theatre layout and user requests
+Standalone Java application which facilitates online booking of a Theatre given layout and user requests.
 
-## Running the tests
+## Installation
 
 ```
-mvn test
+git clone https://github.com/smokka/EasyTicket.git
+```
+
+```
+cd EasyTicket
+```
+
+```
+mvn package
+```
+
+```
+java -jar target/EasyTicket-1.0-SNAPSHOT.jar
 ```
 
 ## Built With
